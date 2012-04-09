@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="isometric" width="60" height="60" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="tiled_collision" tilewidth="64" tileheight="32">
+  <image source="tiled_collision.png" width="960" height="32"/>
+ </tileset>
+ <tileset firstgid="16" name="tiled_dungeon" tilewidth="64" tileheight="128">
+  <image source="tiled_dungeon.png" width="1024" height="1920"/>
+ </tileset>
+ <layer name="background" width="60" height="60" opacity="0.97">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1a2w3CMBDrCH2ISdh/N0CqJeMmqIVKJY4tRfT1Ufd8ie/IMAS/YnqOsTAm+n2N+aoXPBngMq6/4Afey3q+XPWCJ4N5gts8vHMHfwcghhzLma6xth2geatcOfYOQFzBE8cjnSPGDgBPnqP02EnP0CrnMXTsqGfwKq27fL32LVrD3vytfYvWcCR/S/dbQ/J3G0NwdkDqhdQLTn4j9ULqBad64XZgOCB8w9eJb+9+4y7D3W8oX3e/oXzd/YbydfMb2t9wz1/tb7jrWfsbpfnKub9R07Nrf6M0XznpOX4jfsNNz/Ebvvkbv+HtN6Ln6Dl6bhfRs7eee68He+s/u/7fjTmK9+IwX74/FZ5vDZ/24ig3fa7FuUv3KuzZX+dQ+3+zP7bF+ALZX7ddk538hoLXox7A61EP4PXIVcP/igf2dIfaQDgAAA==
+  </data>
+ </layer>
+ <layer name="object" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2b3UrDQBCF99FGqNrUH7TeFAW9k4LiM3qh9XkUvXeWdssa1myGJKtzZj8YyM8J7GEns0k6da4ylDOOw108cDQcnxxfHIvdMX/ugOP8j8Y4JjOB9miyUZRD4nc52SjKsY62nxLn42MIfq3NLwm0aH4t5DMJtAh+JffvNcel267FIbQR+83lc5uPkcdSAhpw7ftYgygICbQ3HFet0IYkn63VKwS/JNAi+LWWzyTQVr/6IIEWwa+1+nwfbZ9wzDv2EfxStO2/zzUd+2h+cyD49ffvc09t9asPEmgR/Fpbj07dzzXnN/y7793EYymB//2oyaq2365uJx5LCdZ5yR6EfPb37wvHa4dmw/HmcPz2BcFvrVdpUOrVo0CLkM/W6hUJtAh+a71Kg1KvSKBFyGdfny3Vq/p8labWK51Ye76yVq+szW+tV2m016vQL9bHayDuN9PGkF4xjX1mQ3rFNPaZhX6xleCauN9MKxcCLcJ6RAItgl+//h67dH63+yUR1t82cX4jzGcO/z4c/m9lwe9/4hsJLwQJQDgAAA==
+  </data>
+ </layer>
+</map>
